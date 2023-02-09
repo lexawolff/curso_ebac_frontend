@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header {
+    background-color: bisque;
+    padding: 16px 0;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a {
+    color: rgb(17, 21, 21);
+    text-decoration: none;
+}
+h1 {
+    color: rgb(56, 29, 12);
+}
+h2 {
+    color: green;
+}
+#esportes {
+    background-color: rgb(162, 215, 162);
+}
+#esportes .article article a {
+    background-color: rgb(174, 212, 116);
+}
+#economia h2 {
+    color: rgba(39, 33, 2, 0.42)
+}
+#economia {
+    background-color: rgb(234, 221, 145);
+}
+#economia .article article a {
+    background-color: goldenrod;
+}
+#tecnologia h2 {
+    color: rgb(134, 8, 8);
+}
+#tecnologia {
+    background-color: rgb(246, 144, 144) ;
+}
+#tecnologia .article article a {
+    background-color: rgb(212, 53, 53) ;
+}
+#entretenimento h2 {
+    color: rgb(102, 102, 207);
+}
+#entretenimento {
+    background-color: rgb(187, 187, 255);
+}
+#entretenimento .article article a {
+    background-color: rgb(98, 98, 192);
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+.article article img {
+    width: 100%;
+}
+.article article {
+    width: 30%;
+}
+section {
+    padding: 16px 0;
+}
+section h2 {
+    font-size: 32px;
+}
+section h2,
+.article article {
+    padding: 16px;
+}
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.article article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+}
+.article article a:hover {
+    text-decoration: underline;
+}
+.article article h3 {
+    font-size: 24px;
+}
