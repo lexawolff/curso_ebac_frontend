@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: rgb(253, 247, 241);
+
+}
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    padding: 25px 0;
+}
+
+form h2 {
+    margin-bottom: 30px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 4px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(5, 133, 32);
+    font-weight: bold;
+    color: #0a0a0a;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
